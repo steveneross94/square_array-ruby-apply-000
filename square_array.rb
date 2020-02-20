@@ -1,6 +1,6 @@
 def square_array(array)
-  random_numbers = []
-  random_numbers.each{|i| random_numbers << ** 2}
-  random_numbers
+  square_array = []
+  square_array.each{|i| square_array << ** 2}
+  square_array
 
 end
