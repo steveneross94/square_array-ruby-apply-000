@@ -1,3 +1,6 @@
 def square_array(array)
-  # your code here
+  random_numbers = []
+  random_numbers.each{|i| random_numbers << ** 2}
+  random_numbers
+
 end
